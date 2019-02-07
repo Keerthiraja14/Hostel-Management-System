@@ -1,0 +1,90 @@
+.jumbotron{
+	background-color: #D7B7BC;
+	height: 230px;
+}
+.navbar{
+	background-color: #5A80B4;
+	margin-top: -35px;s
+}
+.nav-link{
+	color: #8B0000;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.bar1{
+	width: 30px;
+	height: 5px;
+	background-color: #BF00FF;
+	margin: 6px 0;
+}
+.col-md-4{
+	margin-top: 30px;
+}
+.k{
+	margin-top: 30px;
+	background-color: #2EFEF7;
+}
+body{
+	background-color: black;
+}
+#sidebar{
+	position: fixed;
+	width: 200px;
+	height:100% ;
+	background-color: red;
+
+}
+#sidebar ul li{
+	list-style: none;
+	color:white;
+	border-bottom: 1px solid black;
+	padding:15px 10px;
+	left: -200px;
+}
+#sidebar .toggle-btn{
+	position: absolute;
+	left: 100px;
+	top:10px;
+}
+.card{
+	width:400px;
+	height: 300px;
+	margin: 20px;
+}
+.w3-content{
+	margin: 10px;
+}
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #567832;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: white;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
